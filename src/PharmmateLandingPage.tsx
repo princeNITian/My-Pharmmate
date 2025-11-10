@@ -1,10 +1,8 @@
-import React from "react";
-
 // PharmMate Landing Page - Single-file React component (TypeScript-friendly)
 // TailwindCSS utility classes used throughout.
 // Drop this into a Next.js / Create React App project with Tailwind configured.
 
-export default function PharmMateLandingPage(): JSX.Element {
+export default function PharmMateLandingPage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
       <Header />
